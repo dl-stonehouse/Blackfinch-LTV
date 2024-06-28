@@ -1,0 +1,22 @@
+﻿@page
+@model Blackfinch_LTV.Pages.ApplicationModel
+@{
+}
+<p>Enter your loan application details.</p>
+
+<form method="POST" action="">
+    <p>
+        Loan Amount Requested (GBP): <input asp-for="LoanAmountRequested" />
+        <span asp-validation-for="LoanAmountRequested"></span>
+    </p>
+    <p>
+        Asset Value To Security Loan Against (GBP): <input asp-for="AssetValueToSecurityLoanAgainst" />
+        <span asp-validation-for="AssetValueToSecurityLoanAgainst"></span>
+    </p>
+    <p>
+        Credit Score of Applicant (1-999): <input asp-for="CreditScore" />
+        <span asp-validation-for="CreditScore"></span>
+    </p>
+    <p><input type="Submit" name="Submit" value="Submit" /></p>
+
+</form>

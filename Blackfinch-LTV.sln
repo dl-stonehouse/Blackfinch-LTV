@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackfinch-LTV", "Blackfinch-LTV\Blackfinch-LTV.csproj", "{1F2133AE-B270-4E1E-AF6C-D744A8599FFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackfinch-LTV.Tests", "Blackfinch-LTV.Tests\Blackfinch-LTV.Tests.csproj", "{5471030E-119E-498C-A365-A7ECEB23B4E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{117209AB-1B05-4945-8E45-8C8D6B24E3D4}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F2133AE-B270-4E1E-AF6C-D744A8599FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2133AE-B270-4E1E-AF6C-D744A8599FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2133AE-B270-4E1E-AF6C-D744A8599FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2133AE-B270-4E1E-AF6C-D744A8599FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5471030E-119E-498C-A365-A7ECEB23B4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5471030E-119E-498C-A365-A7ECEB23B4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5471030E-119E-498C-A365-A7ECEB23B4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5471030E-119E-498C-A365-A7ECEB23B4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83374B15-EFF0-47E5-ABE2-6E67D1C58142}
+	EndGlobalSection
+EndGlobal
